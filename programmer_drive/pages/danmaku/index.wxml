@@ -1,0 +1,9 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="danmaku-bd" scroll-y="true">
+    <text class="danmaku-content">{{danmakuRecor}}</text>
+  </view>
+  <view class="danmaku-input">
+    <input placeholder="说你想说" focus="true" value="{{inputValue}}" confirm-type="send" bindconfirm="sendMsg"  />
+  </view>
+</view>

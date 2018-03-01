@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/component/index",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/danmaku/index",
+    "pages/component/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,16 +17,22 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_index.png",
+        "selectedIconPath": "images/icon_index_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/danmaku/index",
+        "iconPath": "images/icon_danmaku.png",
+        "selectedIconPath": "images/icon_danmaku_HL.png",
+        "text": "大家说"
+      },
+      {
         "pagePath": "pages/component/index",
         "iconPath": "images/icon_component.png",
         "selectedIconPath": "images/icon_component_HL.png",
         "text": "组件"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "images/green_tri.png",
-        "selectedIconPath": "images/green_tri.png",
-        "text": "首页"
       }
     ]
   },
