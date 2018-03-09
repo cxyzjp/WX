@@ -3,12 +3,14 @@ const CONF = {
     rootPathname: '',
 
     // 微信小程序 App ID
+    // appId: 'wx187a17c53ca1dc17',
     appId: '',
 
     // 微信小程序 App Secret
+    // appSecret: '1150e451804608c201d7e24eefa82d90',
     appSecret: '',
 
-    // 是否使用腾讯云代理登录小程序
+    // 是否使用腾讯云代理登录小程序。false，则需填写微信小程序Appid和Appsecret
     useQcloudLogin: true,
 
     /**
@@ -30,12 +32,15 @@ const CONF = {
          * 地区简称
          * @查看 https://cloud.tencent.com/document/product/436/6224
          */
-        region: 'ap-guangzhou',
+        region: 'ap-chengdu',
         // Bucket 名称
-        fileBucket: 'qcloudtest',
+        fileBucket: 'cxy01',
         // 文件夹
-        uploadFolder: ''
+        uploadFolder: 'images'
     },
+    qcloudAppId: '1256135540',
+    qcloudSecretId: 'AKID42qTvBoRRL6iCYlrnZCgAVhlgS5sDryy',
+    qcloudSecretKey: '2vdAxu5Gfw8D9xd8gFvfWVRF99GXsMvf',
 
     // 微信登录态有效期
     wxLoginExpires: 7200,
