@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/chat/chat",
     "pages/addCgi/addCgi"
   ],
   "window":{
@@ -9,5 +10,25 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "Wafer Quick Start",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_index.png",
+        "selectedIconPath": "images/icon_index_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "images/icon_chat.png",
+        "selectedIconPath": "images/icon_chat_HL.png",
+        "text": "大家说"
+      }
+    ]
   }
 }
